@@ -1,0 +1,526 @@
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\appsettings.json
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\backend.exe
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\backend.deps.json
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\backend.runtimeconfig.json
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\backend.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\backend.pdb
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\obj\Debug\net6.0\backend.csproj.AssemblyReference.cache
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\obj\Debug\net6.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\obj\Debug\net6.0\backend.AssemblyInfoInputs.cache
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\obj\Debug\net6.0\backend.AssemblyInfo.cs
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\obj\Debug\net6.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\obj\Debug\net6.0\backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\obj\Debug\net6.0\backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\obj\Debug\net6.0\scopedcss\bundle\backend.styles.css
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\obj\Debug\net6.0\backend.csproj.CopyComplete
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\obj\Debug\net6.0\backend.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\obj\Debug\net6.0\refint\backend.dll
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\obj\Debug\net6.0\backend.pdb
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\obj\Debug\net6.0\backend.genruntimeconfig.cache
+C:\Users\Luis\Desktop\CICLO V\web\backend\backend\obj\Debug\net6.0\ref\backend.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\appsettings.json
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\backend.exe
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\backend.deps.json
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\backend.runtimeconfig.json
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\backend.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\backend.pdb
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\obj\Debug\net6.0\backend.csproj.AssemblyReference.cache
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\obj\Debug\net6.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\obj\Debug\net6.0\backend.AssemblyInfoInputs.cache
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\obj\Debug\net6.0\backend.AssemblyInfo.cs
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\obj\Debug\net6.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\obj\Debug\net6.0\backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\obj\Debug\net6.0\backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\obj\Debug\net6.0\scopedcss\bundle\backend.styles.css
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\obj\Debug\net6.0\backend.csproj.CopyComplete
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\obj\Debug\net6.0\backend.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\obj\Debug\net6.0\refint\backend.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\obj\Debug\net6.0\backend.pdb
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\obj\Debug\net6.0\backend.genruntimeconfig.cache
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\TB4\backend\backend\obj\Debug\net6.0\ref\backend.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\appsettings.json
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\backend.exe
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\backend.deps.json
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\backend.runtimeconfig.json
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\backend.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\backend.pdb
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.csproj.AssemblyReference.cache
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.AssemblyInfoInputs.cache
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.AssemblyInfo.cs
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\obj\Debug\net6.0\scopedcss\bundle\backend.styles.css
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.csproj.CopyComplete
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\obj\Debug\net6.0\refint\backend.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.pdb
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.genruntimeconfig.cache
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\obj\Debug\net6.0\ref\backend.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\appsettings.json
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\backend.exe
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\backend.deps.json
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\backend.runtimeconfig.json
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\backend.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\backend.pdb
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\obj\Debug\net6.0\backend.csproj.AssemblyReference.cache
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\obj\Debug\net6.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\obj\Debug\net6.0\backend.AssemblyInfoInputs.cache
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\obj\Debug\net6.0\backend.AssemblyInfo.cs
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\obj\Debug\net6.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\obj\Debug\net6.0\backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\obj\Debug\net6.0\backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\obj\Debug\net6.0\scopedcss\bundle\backend.styles.css
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\obj\Debug\net6.0\backend.csproj.CopyComplete
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\obj\Debug\net6.0\backend.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\obj\Debug\net6.0\refint\backend.dll
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\obj\Debug\net6.0\backend.pdb
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\obj\Debug\net6.0\backend.genruntimeconfig.cache
+C:\Users\Miguel Garcia\Desktop\TB4_Apps Web\backend\obj\Debug\net6.0\ref\backend.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\appsettings.json
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\backend.exe
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\backend.deps.json
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\backend.runtimeconfig.json
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\backend.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\backend.pdb
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.csproj.AssemblyReference.cache
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.AssemblyInfoInputs.cache
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.AssemblyInfo.cs
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\obj\Debug\net6.0\scopedcss\bundle\backend.styles.css
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.csproj.CopyComplete
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\obj\Debug\net6.0\refint\backend.dll
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.pdb
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\obj\Debug\net6.0\backend.genruntimeconfig.cache
+C:\Users\Luis\Documents\GitHub\RemodelKing-BackEnd\backend\obj\Debug\net6.0\ref\backend.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\appsettings.json
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\backend.exe
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\backend.deps.json
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\backend.runtimeconfig.json
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\backend.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\backend.pdb
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.csproj.AssemblyReference.cache
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.AssemblyInfoInputs.cache
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.AssemblyInfo.cs
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\scopedcss\bundle\backend.styles.css
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.csproj.CopyComplete
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\refint\backend.dll
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.pdb
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.genruntimeconfig.cache
+C:\Users\SETTING\Documents\Ciclo 5 UPC\Aplicaciones Web\Entrega Final\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\ref\backend.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\appsettings.json
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\backend.exe
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\backend.deps.json
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\backend.runtimeconfig.json
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\backend.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\backend.pdb
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.csproj.AssemblyReference.cache
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.AssemblyInfoInputs.cache
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.AssemblyInfo.cs
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\scopedcss\bundle\backend.styles.css
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.csproj.CopyComplete
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\refint\backend.dll
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.pdb
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.genruntimeconfig.cache
+C:\Users\Luis\Documents\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\ref\backend.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\oscar\OneDrive\Escritorio\ProyectoTB3\RemodelKing-BackEnd\backend\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\appsettings.json
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\backend.exe
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\backend.deps.json
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\backend.runtimeconfig.json
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\backend.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\backend.pdb
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\obj\Debug\net6.0\backend.csproj.AssemblyReference.cache
+C:\Users\Luis\Desktop\parte de Oscar\backend\obj\Debug\net6.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis\Desktop\parte de Oscar\backend\obj\Debug\net6.0\backend.AssemblyInfoInputs.cache
+C:\Users\Luis\Desktop\parte de Oscar\backend\obj\Debug\net6.0\backend.AssemblyInfo.cs
+C:\Users\Luis\Desktop\parte de Oscar\backend\obj\Debug\net6.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Desktop\parte de Oscar\backend\obj\Debug\net6.0\backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Luis\Desktop\parte de Oscar\backend\obj\Debug\net6.0\backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Luis\Desktop\parte de Oscar\backend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Luis\Desktop\parte de Oscar\backend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Luis\Desktop\parte de Oscar\backend\obj\Debug\net6.0\scopedcss\bundle\backend.styles.css
+C:\Users\Luis\Desktop\parte de Oscar\backend\obj\Debug\net6.0\backend.csproj.CopyComplete
+C:\Users\Luis\Desktop\parte de Oscar\backend\obj\Debug\net6.0\backend.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\obj\Debug\net6.0\refint\backend.dll
+C:\Users\Luis\Desktop\parte de Oscar\backend\obj\Debug\net6.0\backend.pdb
+C:\Users\Luis\Desktop\parte de Oscar\backend\obj\Debug\net6.0\backend.genruntimeconfig.cache
+C:\Users\Luis\Desktop\parte de Oscar\backend\obj\Debug\net6.0\ref\backend.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\appsettings.json
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\backend.exe
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\backend.deps.json
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\backend.runtimeconfig.json
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\backend.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\backend.pdb
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.csproj.AssemblyReference.cache
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.AssemblyInfoInputs.cache
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.AssemblyInfo.cs
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\scopedcss\bundle\backend.styles.css
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.csproj.CopyComplete
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\refint\backend.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.pdb
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\backend.genruntimeconfig.cache
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB2\Codigo Backend\RemodelKing-BackEnd-develop\backend\obj\Debug\net6.0\ref\backend.dll
