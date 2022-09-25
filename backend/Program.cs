@@ -1,23 +1,18 @@
-using backend.Register.Domain.Repositories;
-using backend.Register.Domain.Services;
-using backend.Register.Persistence.Repositories;
-using backend.Register.Services;
-using backend.Register.Mapping;
-using backend.RemodelKing.Domain.Repositories;
-using backend.RemodelKing.Domain.Services;
-using backend.RemodelKing.Persistence.Repositories;
-using backend.RemodelKing.Services;
-using backend.Security.Authorization.Handlers.Implementations;
-using backend.Security.Authorization.Handlers.Interfaces;
-using backend.Security.Authorization.Middleware;
-using backend.Security.Authorization.Settings;
-using backend.Security.Domain.Repositories;
-using backend.Security.Domain.Services;
-using backend.Security.Persistence.Repositories;
-using backend.Security.Services;
-using backend.Shared.Domain.Repositories;
-using backend.Shared.Persistence.Contexts;
-using backend.Shared.Persistence.Repositories;
+using LearningCenter.API.Learning.Domain.Repositories;
+using LearningCenter.API.Learning.Domain.Services;
+using LearningCenter.API.Learning.Persistence.Repositories;
+using LearningCenter.API.Learning.Services;
+using LearningCenter.API.Security.Authorization.Handlers.Implementations;
+using LearningCenter.API.Security.Authorization.Handlers.Interfaces;
+using LearningCenter.API.Security.Authorization.Middleware;
+using LearningCenter.API.Security.Authorization.Settings;
+using LearningCenter.API.Security.Domain.Repositories;
+using LearningCenter.API.Security.Domain.Services;
+using LearningCenter.API.Security.Persistence.Repositories;
+using LearningCenter.API.Security.Services;
+using LearningCenter.API.Shared.Domain.Repositories;
+using LearningCenter.API.Shared.Persistence.Contexts;
+using LearningCenter.API.Shared.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
@@ -28,13 +23,18 @@ var  MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
+// AppSettings Configuration
+builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("AppSettings"));
+
+// OpenAPI Configuration
 builder.Services.AddSwaggerGen(options =>
 {
-    options.SwaggerDoc("v1", new OpenApiInfo()
+    options.SwaggerDoc("v1", new OpenApiInfo
     {
         Version = "v1",
-        Title = "ACME RemodelKing API",
-        Description = "ACME RemodelKing Web Services",
+        Title = "ACME Learning Center API",
+        Description = "ACME Learning Center Web Services",
         Contact = new OpenApiContact
         {
             Name = "ACME.studio",
@@ -42,9 +42,9 @@ builder.Services.AddSwaggerGen(options =>
         },
         License = new OpenApiLicense
         {
-            Name = "ACME RemodelKing resources License",
-            Url = new Uri("https://acme-learning.com/license")
-        } 
+        Name = "ACME RemodelKing resources License",
+        Url = new Uri("https://acme-learning.com/license")
+    } 
     });
     options.EnableAnnotations();
     options.AddSecurityDefinition("bearerAuth", new OpenApiSecurityScheme
@@ -69,10 +69,7 @@ builder.Services.AddSwaggerGen(options =>
 
         }
     });
-
 });
-// AppSettings Configuration
-builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("AppSettings"));
 
 // Add Database Connection
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -82,49 +79,46 @@ builder.Services.AddDbContext<AppDbContext>(
         .EnableSensitiveDataLogging()
         .EnableDetailedErrors());
 
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy(name: MyAllowSpecificOrigins,
-        policy  =>
-        {
-            policy.WithOrigins("http://localhost:3000").AllowAnyHeader()
-                .AllowAnyMethod();
-        });
-});
+
 
 // Add lower case routes
 builder.Services.AddRouting(
     options => options.LowercaseUrls = true);
 
+
+// CORS Service addition
+
+builder.Services.AddCors();
+
 // Dependency Injection Configuration
-builder.Services.AddScoped<IClientRepository, ClientRepository>();
-builder.Services.AddScoped<IClientService, ClientServiceImpl>();
-builder.Services.AddScoped<IBusinessService, BusinessServiceImpl>();
-builder.Services.AddScoped<IBusinessRepository, BusinessRepository>();;
-builder.Services.AddScoped<IBusinessProjectService, BusinessProjectServiceImpl>();
-builder.Services.AddScoped<IBusinessProjectRepository, BusinessProjectRepository>();
-builder.Services.AddScoped<IActivityRepository, ActivityRepository>();
-builder.Services.AddScoped<IActivityService, ActivityServiceImpl>();
-builder.Services.AddScoped<IPortfolioRepository, PortfolioRepository>();
-builder.Services.AddScoped<IPortfolioService, PortfolioServiceImpl>();
-builder.Services.AddScoped<IRequestService, RequestServiceImpl>();
-builder.Services.AddScoped<IRequestRepository, RequestRepository>();
-builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
-builder.Services.AddScoped<IPaymentService, PaymentServiceImpl>();
-builder.Services.AddScoped<IUnitOfWork, UnitOfWorkRepository>();
+
+// Shared Injection Configuration
+
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+// Learning Injection Configuration
+
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<ITutorialRepository, TutorialRepository>();
+builder.Services.AddScoped<ITutorialService, TutorialService>();
 
 // Security Injection Configuration
+
 builder.Services.AddScoped<IJwtHandler, JwtHandler>();
-builder.Services.AddScoped<IBusinessProfileRepository, BusinessProfileRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 
-builder.Services.AddScoped<IClientProfileRepository, ClientProfileRepository>();
+
 // AutoMapper Configuration
+
 builder.Services.AddAutoMapper(
-    typeof(backend.Register.Mapping.ModelToResourceProfile),
-    typeof(backend.Register.Mapping.ResourceToModelProfile),
-    typeof(backend.Security.Mapping.ModelToResourceProfile),
-    typeof(backend.Security.Mapping.ResourceToModelProfile));
+    typeof(LearningCenter.API.Learning.Mapping.ModelToResourceProfile), 
+    typeof(LearningCenter.API.Learning.Mapping.ResourceToModelProfile),
+    typeof(LearningCenter.API.Security.Mapping.ModelToResourceProfile), 
+    typeof(LearningCenter.API.Security.Mapping.ResourceToModelProfile));
+
+
 
 var app = builder.Build();
 
@@ -143,11 +137,25 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+
+// Configure CORS
+
+app.UseCors(x => x
+    .AllowAnyOrigin()
+    .AllowAnyMethod()
+    .AllowAnyHeader());
+
+// Configure Error Handler Middleware
+
+app.UseMiddleware<ErrorHandlerMiddleware>();
+
+// Configure JWT Handling
+
 app.UseMiddleware<JwtMiddleware>();
+
 app.UseHttpsRedirection();
-app.UseStaticFiles();
-app.UseRouting();
-app.UseCors(MyAllowSpecificOrigins);
+
 app.UseAuthorization();
 
 app.MapControllers();

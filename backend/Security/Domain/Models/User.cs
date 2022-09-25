@@ -1,8 +1,8 @@
 using System.Text.Json.Serialization;
 
-namespace backend.Security.Domain.Models;
+namespace LearningCenter.API.Security.Domain.Models;
 
-public class UserX
+public class User
 {
     public int Id { get; set; }
     public string FirstName { get; set; }

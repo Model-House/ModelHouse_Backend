@@ -1,18 +1,15 @@
-using backend.Register.Domain.Models;
-using backend.Security.Domain.Models;
+using LearningCenter.API.Security.Domain.Models;
 
-namespace backend.Security.Domain.Repositories;
+namespace LearningCenter.API.Security.Domain.Repositories;
 
 public interface IUserRepository
 {
-    Task<IEnumerable<Business>> ListAsync();
-    Task AddAsync(Business user);
-    Task<Business> FindByIdAsync(long id);
-    /*Task<Business> FindByUsernameAsync(string username);
-    bool ExistsByUsername(string username);*/
-    Task<Business> FindByEmailAsync(string email);
-    bool ExistsByEmail(string email);
-    Business FindById(long id);
-    void Update(Business user);
-    void Remove(Business user);
+    Task<IEnumerable<User>> ListAsync();
+    Task AddAsync(User user);
+    Task<User> FindByIdAsync(int id);
+    Task<User> FindByUsernameAsync(string username);
+    bool ExistsByUsername(string username);
+    User FindById(int id);
+    void Update(User user);
+    void Remove(User user);
 }

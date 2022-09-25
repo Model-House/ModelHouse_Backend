@@ -1,13 +1,13 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using backend.Register.Domain.Models;
-using backend.Security.Authorization.Handlers.Interfaces;
-using backend.Security.Authorization.Settings;
-using backend.Security.Domain.Models;
+using LearningCenter.API.Security.Authorization.Handlers.Interfaces;
+using LearningCenter.API.Security.Authorization.Settings;
+using LearningCenter.API.Security.Domain.Models;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-namespace backend.Security.Authorization.Handlers.Implementations;
+
+namespace LearningCenter.API.Security.Authorization.Handlers.Implementations;
 
 public class JwtHandler : IJwtHandler
 {
@@ -18,7 +18,7 @@ public class JwtHandler : IJwtHandler
         _appSettings = appSettings.Value;
     }
 
-    public string GenerateToken(Business user)
+    public string GenerateToken(User user)
     {
         // Generate Token for a valid period of 7 days
         
@@ -31,7 +31,7 @@ public class JwtHandler : IJwtHandler
             Subject = new ClaimsIdentity(new[]
             {
                 new Claim(ClaimTypes.Sid, user.Id.ToString()),
-                new Claim(ClaimTypes.Name, user.Email)
+                new Claim(ClaimTypes.Name, user.Username)
             }),
             Expires = DateTime.UtcNow.AddDays(7),
             SigningCredentials = new SigningCredentials(
@@ -68,6 +68,7 @@ public class JwtHandler : IJwtHandler
             var jwtToken = (JwtSecurityToken)validatedToken;
             var userId = int.Parse(jwtToken.Claims.First(
                 claim => claim.Type == ClaimTypes.Sid).Value);
+
             return userId;
         }
         catch (Exception e)
@@ -75,29 +76,5 @@ public class JwtHandler : IJwtHandler
             Console.WriteLine(e);
             return null;
         }
-    }
-
-    public string GenerateTokenClient(Client user)
-    {
-        Console.WriteLine($"Secret: {_appSettings.Secret}");
-        var secret = _appSettings.Secret;
-        var key = Encoding.ASCII.GetBytes(secret);
-        Console.WriteLine($"User Id: {user.Id.ToString()}");
-        var tokenDescriptor = new SecurityTokenDescriptor
-        {
-            Subject = new ClaimsIdentity(new[]
-            {
-                new Claim(ClaimTypes.Sid, user.Id.ToString()),
-                new Claim(ClaimTypes.Name, user.Email)
-            }),
-            Expires = DateTime.UtcNow.AddDays(7),
-            SigningCredentials = new SigningCredentials(
-                new SymmetricSecurityKey(key),
-                SecurityAlgorithms.HmacSha512Signature)
-        };
-        var tokenHandler = new JwtSecurityTokenHandler();
-        Console.WriteLine($"Token Expiration: {tokenDescriptor.Expires.ToString()}");
-        var token = tokenHandler.CreateToken(tokenDescriptor);
-        return tokenHandler.WriteToken(token);
     }
 }

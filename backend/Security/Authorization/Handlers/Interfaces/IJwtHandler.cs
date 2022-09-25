@@ -1,11 +1,9 @@
-using backend.Register.Domain.Models;
-using backend.Security.Domain.Models;
+using LearningCenter.API.Security.Domain.Models;
 
-namespace backend.Security.Authorization.Handlers.Interfaces;
+namespace LearningCenter.API.Security.Authorization.Handlers.Interfaces;
 
 public interface IJwtHandler
 {
-    string GenerateToken(Business user);
+    string GenerateToken(User user);
     int? ValidateToken(string token);
-    string GenerateTokenClient(Client user);
 }

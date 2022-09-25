@@ -1,6 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
-namespace backend.Shared.Extensions;
+namespace LearningCenter.API.Shared.Extensions;
 
 public static class ModelBuilderExtensions
 {
@@ -14,6 +14,7 @@ public static class ModelBuilderExtensions
             {
                 // TODO: Review syntax
                 property.SetColumnName(property.GetColumnBaseName().ToSnakeCase());
+                
             }
 
             foreach (var key in entity.GetKeys())

@@ -1,6 +1,6 @@
 using System.Globalization;
 
-namespace backend.Security.Exceptions;
+namespace LearningCenter.API.Security.Exceptions;
 
 public class AppException : Exception
 {

@@ -1,4 +1,4 @@
-﻿namespace backend.Shared.Extensions;
+namespace LearningCenter.API.Shared.Extensions;
 
 public static class StringExtensions
 {

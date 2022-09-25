@@ -1,6 +1,6 @@
-﻿using backend.Shared.Persistence.Contexts;
+using LearningCenter.API.Shared.Persistence.Contexts;
 
-namespace backend.Shared.Persistence.Repositories;
+namespace LearningCenter.API.Shared.Persistence.Repositories;
 
 public class BaseRepository
 {

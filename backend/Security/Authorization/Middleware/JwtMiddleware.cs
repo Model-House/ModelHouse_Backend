@@ -1,9 +1,9 @@
-using backend.Security.Authorization.Handlers.Interfaces;
-using backend.Security.Authorization.Settings;
-using backend.Security.Domain.Services;
+using LearningCenter.API.Security.Authorization.Handlers.Interfaces;
+using LearningCenter.API.Security.Authorization.Settings;
+using LearningCenter.API.Security.Domain.Services;
 using Microsoft.Extensions.Options;
 
-namespace backend.Security.Authorization.Middleware;
+namespace LearningCenter.API.Security.Authorization.Middleware;
 
 public class JwtMiddleware
 {

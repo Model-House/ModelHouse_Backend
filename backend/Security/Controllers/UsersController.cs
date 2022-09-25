@@ -1,15 +1,12 @@
 using AutoMapper;
-using backend.Register.Domain.Models;
-using backend.Register.Resources;
-using backend.Security.Authorization.Attributes;
-using backend.Security.Domain.Models;
-using backend.Security.Domain.Services;
-using backend.Security.Domain.Services.Communication;
-using backend.Security.Resources;
-using backend.Shared.Extensions;
+using LearningCenter.API.Security.Authorization.Attributes;
+using LearningCenter.API.Security.Domain.Models;
+using LearningCenter.API.Security.Domain.Services;
+using LearningCenter.API.Security.Domain.Services.Communication;
+using LearningCenter.API.Security.Resources;
 using Microsoft.AspNetCore.Mvc;
 
-namespace backend.Security.Controllers;
+namespace LearningCenter.API.Security.Controllers;
 
 [Authorize]
 [ApiController]
@@ -37,19 +34,15 @@ public class UsersController : ControllerBase
     [HttpPost("sign-up")]
     public async Task<IActionResult> Register(RegisterRequest request)
     {
-        //var model = _mapper.Map<RegisterRequest, Business>(request);
-        var response = await _userService.RegisterAsync(request);
-        //if (!result.Success)
-          //  return BadRequest(result.Message);
-        //var resource = _mapper.Map<Business, RegisterRequest>(result.Resource);
-        return Ok(response);
+        await _userService.RegisterAsync(request);
+        return Ok(new { message = "Registration successful" });
     }
 
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
         var users = await _userService.ListAsync();
-        var resources = _mapper.Map<IEnumerable<Business>, IEnumerable<UserResourceX>>(users);
+        var resources = _mapper.Map<IEnumerable<User>, IEnumerable<UserResource>>(users);
         return Ok(resources);
     }
 
@@ -57,7 +50,7 @@ public class UsersController : ControllerBase
     public async Task<IActionResult> GetById(int id)
     {
         var user = await _userService.GetByIdAsync(id);
-        var resource = _mapper.Map<Business, UserResourceX>(user);
+        var resource = _mapper.Map<User, UserResource>(user);
 
         return Ok(resource);
     }

@@ -1,9 +1,9 @@
 using System.Net;
 using System.Net.Mime;
 using System.Text.Json;
-using backend.Security.Exceptions;
+using LearningCenter.API.Security.Exceptions;
 
-namespace backend.Security.Authorization.Middleware;
+namespace LearningCenter.API.Security.Authorization.Middleware;
 
 public class ErrorHandlerMiddleware
 {

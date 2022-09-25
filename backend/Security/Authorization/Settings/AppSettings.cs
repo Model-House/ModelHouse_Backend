@@ -1,4 +1,4 @@
-namespace backend.Security.Authorization.Settings;
+namespace LearningCenter.API.Security.Authorization.Settings;
 
 public class AppSettings
 {

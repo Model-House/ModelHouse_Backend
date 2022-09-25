@@ -1,4 +1,4 @@
-namespace backend;
+namespace LearningCenter.API;
 
 public class WeatherForecast
 {

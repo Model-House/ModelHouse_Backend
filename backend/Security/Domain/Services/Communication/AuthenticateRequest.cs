@@ -1,13 +1,11 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace backend.Security.Domain.Services.Communication;
+namespace LearningCenter.API.Security.Domain.Services.Communication;
 
 public class AuthenticateRequest
 {
-    /*[Required]
-    public string Username { get; set; }*/
     [Required]
-    public string Email { get; set; }
+    public string Username { get; set; }
     [Required]
     public string Password { get; set; }
 }

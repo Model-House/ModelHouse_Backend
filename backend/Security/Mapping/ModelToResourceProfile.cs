@@ -1,25 +1,15 @@
 using AutoMapper;
-using backend.Register.Domain.Models;
-using backend.Register.Resources;
-using backend.Security.Domain.Models;
-using backend.Security.Domain.Services.Communication;
-using backend.Security.Resources;
-using UserResource = backend.Register.Resources.UserResource;
+using LearningCenter.API.Security.Domain.Models;
+using LearningCenter.API.Security.Domain.Services.Communication;
+using LearningCenter.API.Security.Resources;
 
-namespace backend.Security.Mapping;
+namespace LearningCenter.API.Security.Mapping;
 
 public class ModelToResourceProfile : Profile
 {
     public ModelToResourceProfile()
     {
-        CreateMap<Business, AuthenticateResponse>();
-        CreateMap<Business, RegisterResponse>();
-        CreateMap<Business, BusinessProfileResource>();
-        CreateMap<Business, RegisterRequest>();
-
-        CreateMap<Client, AuthenticateResponse>();
-        CreateMap<Client, RegisterClientResponse>();
-        CreateMap<Client, ClientProfileResource>();
-        CreateMap<Client, RegisterClientRequest>();
+        CreateMap<User, AuthenticateResponse>();
+        CreateMap<User, UserResource>();
     }
 }

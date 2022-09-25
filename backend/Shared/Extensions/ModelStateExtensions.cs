@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace backend.Shared.Extensions;
+namespace LearningCenter.API.Shared.Extensions;
+
 public static class ModelStateExtensions
 {
     public static List<string> GetErrorMessages(this ModelStateDictionary dictionary)
