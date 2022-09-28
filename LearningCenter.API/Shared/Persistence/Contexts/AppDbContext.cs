@@ -20,6 +20,8 @@ public class AppDbContext : DbContext
     public DbSet<Area> Areas { get; set; }
     public DbSet<Project> Projects { get; set; }
     public DbSet<Order> Orders { get; set; }
+    public DbSet<Room> Rooms { get; set; }
+    public DbSet<Service> Services { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
@@ -70,6 +72,20 @@ public class AppDbContext : DbContext
         builder.Entity<Area>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
         builder.Entity<Area>().Property(p => p.Name).IsRequired().HasMaxLength(30);
         builder.Entity<Area>().Property(p => p.Check).IsRequired();
+        
+        // Rooms
+        builder.Entity<Room>().ToTable("Rooms");
+        builder.Entity<Room>().HasKey(p => p.Id);
+        builder.Entity<Room>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<Room>().Property(p => p.Name).IsRequired().HasMaxLength(30);
+        builder.Entity<Room>().Property(p => p.Check).IsRequired();
+        
+        // Services
+        builder.Entity<Service>().ToTable("Services");
+        builder.Entity<Service>().HasKey(p => p.Id);
+        builder.Entity<Service>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<Service>().Property(p => p.Name).IsRequired().HasMaxLength(30);
+        builder.Entity<Service>().Property(p => p.Check).IsRequired();
 
         builder.Entity<Project>().ToTable("Projects");
         builder.Entity<Project>().HasKey(p => p.Id);
