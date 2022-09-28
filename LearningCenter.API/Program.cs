@@ -6,6 +6,10 @@ using LearningCenter.API.Learning.Domain.Repositories;
 using LearningCenter.API.Learning.Domain.Services;
 using LearningCenter.API.Learning.Persistence.Repositories;
 using LearningCenter.API.Learning.Services;
+using LearningCenter.API.Profile.Domain.Repositories;
+using LearningCenter.API.Profile.Domain.Services;
+using LearningCenter.API.Profile.Persistence.Repositories;
+using LearningCenter.API.Profile.Services;
 using LearningCenter.API.Security.Authorization.Handlers.Implementations;
 using LearningCenter.API.Security.Authorization.Handlers.Interfaces;
 using LearningCenter.API.Security.Authorization.Middleware;
@@ -108,6 +112,11 @@ builder.Services.AddScoped<ITutorialRepository, TutorialRepository>();
 builder.Services.AddScoped<ITutorialService, TutorialService>();
 builder.Services.AddScoped<IAreaRepository, AreaRepository>();
 builder.Services.AddScoped<IAreaService, AreaService>();
+builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
+builder.Services.AddScoped<IProjectService, ProjectService>();
+builder.Services.AddScoped<IAreaService, AreaService>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 
 // Security Injection Configuration
 
@@ -124,7 +133,9 @@ builder.Services.AddAutoMapper(
     typeof(LearningCenter.API.Security.Mapping.ModelToResourceProfile), 
     typeof(LearningCenter.API.Security.Mapping.ResourceToModelProfile),
     typeof(LearningCenter.API.Interest.Mapping.ModelToResourceProfile), 
-    typeof(LearningCenter.API.Interest.Mapping.ResourceToModelProfile)
+    typeof(LearningCenter.API.Interest.Mapping.ResourceToModelProfile),
+    typeof(LearningCenter.API.Profile.Mapping.ResourceToModelProfile),
+    typeof(LearningCenter.API.Profile.Mapping.ModelToResourceProfile)
     
     );
 

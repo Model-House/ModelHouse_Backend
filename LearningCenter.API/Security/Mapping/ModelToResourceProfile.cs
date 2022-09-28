@@ -5,7 +5,7 @@ using LearningCenter.API.Security.Resources;
 
 namespace LearningCenter.API.Security.Mapping;
 
-public class ModelToResourceProfile : Profile
+public class ModelToResourceProfile : AutoMapper.Profile
 {
     public ModelToResourceProfile()
     {

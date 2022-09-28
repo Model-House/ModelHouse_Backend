@@ -4,7 +4,7 @@ using LearningCenter.API.Learning.Resources;
 
 namespace LearningCenter.API.Learning.Mapping;
 
-public class ModelToResourceProfile : Profile
+public class ModelToResourceProfile : AutoMapper.Profile
 {
     public ModelToResourceProfile()
     {

@@ -4,7 +4,7 @@ using LearningCenter.API.Security.Domain.Services.Communication;
 
 namespace LearningCenter.API.Security.Mapping;
 
-public class ResourceToModelProfile : Profile
+public class ResourceToModelProfile : AutoMapper.Profile
 {
     public ResourceToModelProfile()
     {
