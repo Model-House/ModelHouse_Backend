@@ -10,5 +10,9 @@ public class ResourceToModelProfile: AutoMapper.Profile
     {
         CreateMap<SaveAreaResource, Area>();
         CreateMap<UpdateAreaResource, Area>();
+        CreateMap<SaveRoomResource, Room>();
+        CreateMap<UpdateRoomResource, Room>();
+        CreateMap<SaveServiceResource, Service>();
+        CreateMap<UpdateServiceResource, Service>();
     }
 }

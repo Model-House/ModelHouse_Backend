@@ -32,12 +32,12 @@ public class AreasController: ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> PostAsync([FromBody] UpdateAreaResource resource)
+    public async Task<IActionResult> PostAsync([FromBody] SaveAreaResource resource)
     {
         if (!ModelState.IsValid)
             return BadRequest(ModelState.GetErrorMessages());
 
-        var area = _mapper.Map<UpdateAreaResource, Area>(resource);
+        var area = _mapper.Map<SaveAreaResource, Area>(resource);
 
         var result = await _areaService.SaveAsync(area);
 
@@ -50,12 +50,12 @@ public class AreasController: ControllerBase
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> PutAsync(int id, [FromBody] SaveAreaResource resource)
+    public async Task<IActionResult> PutAsync(int id, [FromBody] UpdateAreaResource resource)
     {
         if (!ModelState.IsValid)
             return BadRequest(ModelState.GetErrorMessages());
 
-        var area = _mapper.Map<SaveAreaResource, Area>(resource);
+        var area = _mapper.Map<UpdateAreaResource, Area>(resource);
 
         var result = await _areaService.UpdateAsync(id, area);
 
