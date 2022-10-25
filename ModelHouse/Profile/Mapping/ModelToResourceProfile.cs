@@ -9,5 +9,6 @@ public class ModelToResourceProfile: AutoMapper.Profile
     {
         CreateMap<Project, ProjectResource>();
         CreateMap<Order, OrderResource>();
+        CreateMap<Post, PostResource>();
     }
 }
