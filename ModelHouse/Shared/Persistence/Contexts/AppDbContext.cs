@@ -16,6 +16,7 @@ public class AppDbContext : DbContext
     public DbSet<Area> Areas { get; set; }
     public DbSet<Project> Projects { get; set; }
     public DbSet<Order> Orders { get; set; }
+    public DbSet<Post> Posts { get; set; }
     public DbSet<Room> Rooms { get; set; }
     public DbSet<Service> Services { get; set; }
 
@@ -27,8 +28,7 @@ public class AppDbContext : DbContext
         builder.Entity<User>().HasKey(p => p.Id);
         builder.Entity<User>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
         builder.Entity<User>().Property(p => p.Username).IsRequired().HasMaxLength(30);
-        builder.Entity<User>().Property(p => p.FirstName).IsRequired();
-        builder.Entity<User>().Property(p => p.LastName).IsRequired();
+        builder.Entity<User>().Property(p => p.Email).IsRequired();
         
         builder.Entity<User>()
             .HasMany(p => p.Projects)
@@ -37,6 +37,10 @@ public class AppDbContext : DbContext
         
         builder.Entity<User>()
             .HasMany(p => p.Orders)
+            .WithOne(p => p.User)
+            .HasForeignKey(p => p.UserId);
+        builder.Entity<User>()
+            .HasMany(p => p.Posts)
             .WithOne(p => p.User)
             .HasForeignKey(p => p.UserId);
         
@@ -76,6 +80,15 @@ public class AppDbContext : DbContext
         builder.Entity<Order>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
         builder.Entity<Order>().Property(p => p.Title).IsRequired().HasMaxLength(30);
         builder.Entity<Order>().Property(p => p.Description).IsRequired().HasMaxLength(200);
+        
+        builder.Entity<Post>().ToTable("Posts");
+        builder.Entity<Post>().HasKey(p => p.Id);
+        builder.Entity<Post>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<Post>().Property(p => p.Price).IsRequired();
+        builder.Entity<Post>().Property(p => p.Title).IsRequired().HasMaxLength(50);
+        builder.Entity<Post>().Property(p => p.Category).IsRequired().HasMaxLength(100);
+        builder.Entity<Post>().Property(p => p.Location).IsRequired().HasMaxLength(100);
+        builder.Entity<Post>().Property(p => p.Description).IsRequired().HasMaxLength(200);
         // Apply Naming Conventions
         builder.UseSnakeCaseNamingConvention();
 

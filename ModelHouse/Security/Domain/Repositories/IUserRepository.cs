@@ -7,7 +7,7 @@ public interface IUserRepository
     Task<IEnumerable<User>> ListAsync();
     Task AddAsync(User user);
     Task<User> FindByIdAsync(long id);
-    Task<User> FindByUsernameAsync(string username);
+    Task<User> FindByEmailAsync(string email);
     bool ExistsByUsername(string username);
     User FindById(long id);
     void Update(User user);

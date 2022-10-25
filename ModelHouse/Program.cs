@@ -114,6 +114,8 @@ builder.Services.AddScoped<IProjectService, ProjectService>();
 builder.Services.AddScoped<IAreaService, AreaService>();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IPostRepository, PostRepository>();
+builder.Services.AddScoped<IPostService, PostService>();
 
 // Security Injection Configuration
 
