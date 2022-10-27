@@ -8,7 +8,7 @@ public interface IUserRepository
     Task AddAsync(User user);
     Task<User> FindByIdAsync(long id);
     Task<User> FindByEmailAsync(string email);
-    bool ExistsByUsername(string username);
+    bool ExistsByEmail(string username);
     User FindById(long id);
     void Update(User user);
     void Remove(User user);
