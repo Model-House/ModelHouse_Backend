@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'model-house'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_84C9B49EF32A40F99FDBFD8B62639787 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F3D249FDDDEC45BE84531D231F7801E7 }}
           package: .
