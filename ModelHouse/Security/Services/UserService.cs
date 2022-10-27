@@ -63,8 +63,8 @@ public class UserService : IUserService
     public async Task RegisterAsync(RegisterRequest request)
     {
         // Validate if Username is already taken
-        if (_userRepository.ExistsByUsername(request.Username))
-            throw new AppException($"Username '{request.Username}' is already taken");
+        if (_userRepository.ExistsByEmail(request.Email))
+            throw new AppException($"Email is already taken");
         
         // Map Request to User Object
         var user = _mapper.Map<User>(request);
