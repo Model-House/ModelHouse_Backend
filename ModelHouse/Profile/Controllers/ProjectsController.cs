@@ -64,11 +64,10 @@ public class ProjectsController: ControllerBase
         var project = _mapper.Map<SaveProjectResource, Project>(resource);
 
         var result = await _projectService.CreateAsync(project);
-
         if (!result.Success)
             return BadRequest(result.Message);
 
-        var clientResource = _mapper.Map<Project, ProjectResource>(result.Resource);
-        return Ok(clientResource);
+        var projectResource = _mapper.Map<Project, ProjectResource>(result.Resource);
+        return Ok(projectResource);
     }
 }
