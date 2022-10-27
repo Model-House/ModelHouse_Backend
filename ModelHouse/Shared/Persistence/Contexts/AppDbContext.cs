@@ -43,7 +43,10 @@ public class AppDbContext : DbContext
             .HasMany(p => p.Posts)
             .WithOne(p => p.User)
             .HasForeignKey(p => p.UserId);
-        
+        builder.Entity<User>()
+            .HasMany(p => p.Areas)
+            .WithOne(p => p.User)
+            .HasForeignKey(p => p.UserId);
         // Areas
         builder.Entity<Area>().ToTable("Areas");
         builder.Entity<Area>().HasKey(p => p.Id);

@@ -29,19 +29,27 @@ public class AreasController: ControllerBase
 
         return resources;
     }
-
+    [HttpGet("user/{id}")]
+    public async Task<IEnumerable<AreaResource>> GetAllByUserId(long id)
+    {
+        var orders = await _areaService.ListByUserId(id);
+        var resources = _mapper.Map<IEnumerable<Area>, IEnumerable<AreaResource>>(orders);
+        return resources;
+    }
     [HttpPost]
     public async Task<IActionResult> PostAsync([FromBody] SaveAreaResource resource)
     {
         if (!ModelState.IsValid)
             return BadRequest(ModelState.GetErrorMessages());
-
+        Console.WriteLine("holita");
         var area = _mapper.Map<SaveAreaResource, Area>(resource);
 
         var result = await _areaService.SaveAsync(area);
+        Console.WriteLine("holita222");
 
         if (!result.Success)
             return BadRequest(result.Message);
+        Console.WriteLine("holita333");
 
         var areaResource = _mapper.Map<Area, AreaResource>(result.Resource);
 
