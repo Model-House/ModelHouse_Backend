@@ -13,4 +13,6 @@ public class Post
     
     public User User { get; set; }
     public long UserId { get; set; }
+    public IList<Order> Orders { get; set; } = new List<Order>();
+
 }

@@ -10,14 +10,14 @@ public class OrderService: IOrderService
 {
     private readonly IOrderRepository _orderRepository;
     private readonly IUserRepository _userRepository;
-    private readonly IProjectRepository _projectRepository;
+    private readonly IPostRepository _postRepository;
     private readonly IUnitOfWork _unitOfWork;
 
-    public OrderService(IOrderRepository orderRepository, IUserRepository userRepository, IProjectRepository projectRepository, IUnitOfWork unitOfWork)
+    public OrderService(IUserRepository userRepository, IOrderRepository orderRepository, IPostRepository postRepository, IUnitOfWork unitOfWork)
     {
-        _orderRepository = orderRepository;
         _userRepository = userRepository;
-        _projectRepository = projectRepository;
+        _orderRepository = orderRepository;
+        _postRepository = postRepository;
         _unitOfWork = unitOfWork;
     }
 
@@ -33,23 +33,19 @@ public class OrderService: IOrderService
 
     public async Task<OrderResponse> CreateAsync(Order order)
     {
-        System.Console.WriteLine("nada");
         var user = await _userRepository.FindByIdAsync(order.UserId);
-        System.Console.WriteLine("nada");
         if (user == null)
             return new OrderResponse("User is not exist");
-        System.Console.WriteLine("Hola-0");
-        var project_exist = await _projectRepository.FindByIdAsync(order.ProjectId);
-        if (project_exist == null)
-            return new OrderResponse("Project is not exist");
-        System.Console.WriteLine("Hola-1");
-        var order_exist = await _orderRepository.FindByIdAsync(order.Id);
-        if (order_exist != null)
-            return new OrderResponse("The User already has this project");
-        System.Console.WriteLine("Hola");
+        var post_exist = await _postRepository.FindByIdAsync(order.PostId);
+        if (post_exist == null)
+            return new OrderResponse("The post Id is not exist");
+        var send_user_exist = await _userRepository.FindByIdAsync(order.SendUserId);
+        if (send_user_exist == null)
+            return new OrderResponse("The user send is not exist");
+        if (order.UserId == order.SendUserId)
+            return new OrderResponse("A user cannot make an order to his own post");
         try
         {
-            System.Console.WriteLine("Hola2");
             await _orderRepository.AddAsync(order);
             await _unitOfWork.CompleteAsync();
             return new OrderResponse(order);

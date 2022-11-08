@@ -1,7 +1,8 @@
 using System.ComponentModel.DataAnnotations;
 
 namespace ModelHouse.Profile.Resources;
-public class SaveOrderResource
+
+public class SaveNotificationResource
 {
     [Required]
     [MaxLength(30)]
@@ -13,9 +14,6 @@ public class SaveOrderResource
     
     [Required]
     public long UserId { get; set; }
-    
-    [Required]
-    public long SendUserId { get; set; }
     
     [Required]
     public long PostId { get; set; }

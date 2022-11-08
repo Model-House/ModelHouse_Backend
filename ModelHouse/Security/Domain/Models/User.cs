@@ -12,8 +12,9 @@ public class User
     
     [JsonIgnore]
     public string PasswordHash { get; set; }
-    public IList<Project> Projects { get; set; } = new List<Project>();
     public IList<Order> Orders { get; set; } = new List<Order>();
     public IList<Post> Posts { get; set; } = new List<Post>();
     public IList<Area> Areas { get; set; } = new List<Area>();
+    public IList<Notification> Notifications { get; set; } = new List<Notification>();
+
 }
