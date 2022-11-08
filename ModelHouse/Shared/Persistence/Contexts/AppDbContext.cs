@@ -14,11 +14,11 @@ public class AppDbContext : DbContext
 
     public DbSet<User> Users { get; set; }
     public DbSet<Area> Areas { get; set; }
-    public DbSet<Project> Projects { get; set; }
     public DbSet<Order> Orders { get; set; }
     public DbSet<Post> Posts { get; set; }
     public DbSet<Room> Rooms { get; set; }
     public DbSet<Service> Services { get; set; }
+    public DbSet<Notification> Notifications { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
@@ -29,12 +29,7 @@ public class AppDbContext : DbContext
         builder.Entity<User>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
         builder.Entity<User>().Property(p => p.Username).IsRequired().HasMaxLength(30);
         builder.Entity<User>().Property(p => p.Email).IsRequired();
-        
-        builder.Entity<User>()
-            .HasMany(p => p.Projects)
-            .WithOne(p => p.User)
-            .HasForeignKey(p => p.UserId);
-        
+
         builder.Entity<User>()
             .HasMany(p => p.Orders)
             .WithOne(p => p.User)
@@ -67,23 +62,18 @@ public class AppDbContext : DbContext
         builder.Entity<Service>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
         builder.Entity<Service>().Property(p => p.Name).IsRequired().HasMaxLength(30);
         builder.Entity<Service>().Property(p => p.Check).IsRequired();
-
-        builder.Entity<Project>().ToTable("Projects");
-        builder.Entity<Project>().HasKey(p => p.Id);
-        builder.Entity<Project>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
-        builder.Entity<Project>().Property(p => p.Title).IsRequired().HasMaxLength(50);
-        builder.Entity<Project>().Property(p => p.Price).IsRequired();
-        builder.Entity<Project>().Property(p => p.Category).IsRequired().HasMaxLength(40);
-        builder.Entity<Project>().Property(p => p.Location).IsRequired().HasMaxLength(120);
-        builder.Entity<Project>().Property(p => p.Description).IsRequired().HasMaxLength(300);
-        builder.Entity<Project>().Property(p => p.Photo).IsRequired();
+        
+        builder.Entity<Post>()
+            .HasMany(p => p.Orders)
+            .WithOne(p => p.Post)
+            .HasForeignKey(p => p.PostId);
         
         builder.Entity<Order>().ToTable("Orders");
         builder.Entity<Order>().HasKey(p => p.Id);
         builder.Entity<Order>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
         builder.Entity<Order>().Property(p => p.Title).IsRequired().HasMaxLength(30);
         builder.Entity<Order>().Property(p => p.Description).IsRequired().HasMaxLength(200);
-        
+
         builder.Entity<Post>().ToTable("Posts");
         builder.Entity<Post>().HasKey(p => p.Id);
         builder.Entity<Post>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
@@ -92,9 +82,20 @@ public class AppDbContext : DbContext
         builder.Entity<Post>().Property(p => p.Category).IsRequired().HasMaxLength(100);
         builder.Entity<Post>().Property(p => p.Location).IsRequired().HasMaxLength(100);
         builder.Entity<Post>().Property(p => p.Description).IsRequired().HasMaxLength(200);
+        
+        builder.Entity<User>()
+            .HasMany(p => p.Notifications)
+            .WithOne(p => p.User)
+            .HasForeignKey(p => p.UserId);
+        
+        builder.Entity<Notification>().ToTable("Notifications");
+        builder.Entity<Notification>().HasKey(p => p.Id);
+        builder.Entity<Notification>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<Notification>().Property(p => p.Title).IsRequired().HasMaxLength(50);
+        builder.Entity<Notification>().Property(p => p.Description).IsRequired().HasMaxLength(200);
+        //builder.Entity<Notification>().Property(p => p.ShippingTime).IsRequired();
+        
         // Apply Naming Conventions
         builder.UseSnakeCaseNamingConvention();
-
-
     }
 }

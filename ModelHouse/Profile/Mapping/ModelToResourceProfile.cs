@@ -7,8 +7,8 @@ public class ModelToResourceProfile: AutoMapper.Profile
 {
     public ModelToResourceProfile()
     {
-        CreateMap<Project, ProjectResource>();
         CreateMap<Order, OrderResource>();
         CreateMap<Post, PostResource>();
+        CreateMap<Notification, NotificationResource>();
     }
 }
