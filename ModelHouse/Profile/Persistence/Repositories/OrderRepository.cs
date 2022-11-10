@@ -16,7 +16,7 @@ public class OrderRepository: BaseRepository, IOrderRepository
     {
         return await _context.Orders
             .Include(p => p.User)
-            .Include(p => p.Project)
+            .Include(p=>p.Post)
             .ToListAsync();
     }
 
@@ -25,7 +25,7 @@ public class OrderRepository: BaseRepository, IOrderRepository
         return await _context.Orders.
             Where(p=>p.UserId == id)
             .Include(p => p.User)
-            .Include(p => p.Project)
+            .Include(p=>p.Post)
             .ToListAsync();
     }
 
@@ -33,7 +33,7 @@ public class OrderRepository: BaseRepository, IOrderRepository
     {
         return await _context.Orders
             .Include(p => p.User)
-            .Include(p => p.Project)
+            .Include(p=>p.Post)
             .FirstOrDefaultAsync(p => p.Id == id);
     }
 
