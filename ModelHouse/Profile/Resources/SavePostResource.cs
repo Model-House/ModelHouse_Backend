@@ -20,4 +20,5 @@ public class SavePostResource
     public string Description { get; set; }
     [Required]
     public long UserId { get; set; }
+    public IFormFile Foto { get; set; }
 }

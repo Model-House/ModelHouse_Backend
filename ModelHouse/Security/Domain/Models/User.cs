@@ -9,12 +9,15 @@ public class User
     public long Id { get; set; }
     public string Username { get; set; }
     public string Email { get; set; }
-    
+    public string Image { get; set; }
+    public string Phone { get; set; }
+
     [JsonIgnore]
     public string PasswordHash { get; set; }
     public IList<Order> Orders { get; set; } = new List<Order>();
     public IList<Post> Posts { get; set; } = new List<Post>();
     public IList<Area> Areas { get; set; } = new List<Area>();
     public IList<Notification> Notifications { get; set; } = new List<Notification>();
+    public IList<Contact> Contacts { get; set; } = new List<Contact>();
 
 }

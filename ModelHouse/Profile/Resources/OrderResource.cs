@@ -11,8 +11,9 @@ public class OrderResource
     public UserResource User { get; set; }
     public long UserId { get; set; }
     
-    public long SendUserId { get; set; }
-    
+    public long SendUserId { get; set; } 
+    public bool active { get; set; }
+
     public PostResource Post { get; set; }
     public long PostId { get; set; }
 

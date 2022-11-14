@@ -16,5 +16,11 @@ public class SaveNotificationResource
     public long UserId { get; set; }
     
     [Required]
+    public bool active { get; set; }
+    
+    [Required]
+    public DateTime ShippingTime { get; set; }
+
+    [Required]
     public long PostId { get; set; }
 }

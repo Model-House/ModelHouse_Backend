@@ -10,5 +10,7 @@ public class ModelToResourceProfile: AutoMapper.Profile
         CreateMap<Order, OrderResource>();
         CreateMap<Post, PostResource>();
         CreateMap<Notification, NotificationResource>();
+        CreateMap<Contact, ContactResource>();
+        CreateMap<Message, MessageResource>();
     }
 }

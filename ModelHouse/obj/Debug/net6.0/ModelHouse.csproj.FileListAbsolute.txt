@@ -190,3 +190,4 @@ C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB4\ModelHouse_Backend-master\Mod
 C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB4\ModelHouse_Backend-master\ModelHouse\obj\Debug\net6.0\ModelHouse.pdb
 C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB4\ModelHouse_Backend-master\ModelHouse\obj\Debug\net6.0\ModelHouse.genruntimeconfig.cache
 C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB4\ModelHouse_Backend-master\ModelHouse\obj\Debug\net6.0\ref\ModelHouse.dll
+C:\Users\SETTING\Documents\Ciclo 6 UPC\Moviles\TB4\ModelHouse_Backend-master\ModelHouse\bin\Debug\net6.0\ModelHouse.staticwebassets.runtime.json

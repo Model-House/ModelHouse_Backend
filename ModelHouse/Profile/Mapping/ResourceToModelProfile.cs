@@ -9,6 +9,9 @@ public class ResourceToModelProfile:AutoMapper.Profile
     {
         CreateMap<SaveOrderResource, Order>();
         CreateMap<SavePostResource, Post>();
+ //           .ForMember(m=>m.Foto, options=>options.Ignore());
         CreateMap<SaveNotificationResource, Notification>();
+        CreateMap<SaveContactResource, Contact>();
+        CreateMap<SaveMessageResource, Message>();
     }
 }

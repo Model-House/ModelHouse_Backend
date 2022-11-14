@@ -54,14 +54,18 @@ public class PostController: ControllerBase
         return Ok(postResource);
     }
     [HttpPost]
-    public async Task<IActionResult> PostAsync([FromBody] SavePostResource resource)
+    public async Task<IActionResult> PostAsync([FromForm] SavePostResource resource)
     {
+        using var stream = new MemoryStream();
+        IFormFile foto = resource.Foto;
+        await foto.CopyToAsync(stream);
+        var fileBytes = stream.ToArray();
         if (!ModelState.IsValid)
             return BadRequest(ModelState.GetErrorMessages());
-
+        
         var post = _mapper.Map<SavePostResource, Post>(resource);
 
-        var result = await _postService.CreateAsync(post);
+        var result = await _postService.CreateAsync(post, fileBytes, foto.ContentType,Path.GetExtension(foto.FileName), "ImagePost");
         if (!result.Success)
             return BadRequest(result.Message);
 

@@ -12,12 +12,16 @@ public class PostService: IPostService
     private readonly IPostRepository _postRepository;
     private readonly IUserRepository _userRepository;
     private readonly IUnitOfWork _unitOfWork;
+    private readonly IWebHostEnvironment _webHostEnvironment;
+    private readonly IHttpContextAccessor _httpContextAccessor;
 
-    public PostService(IPostRepository postRepository, IUserRepository userRepository, IUnitOfWork unitOfWork)
+    public PostService(IUnitOfWork unitOfWork, IUserRepository userRepository, IPostRepository postRepository, IWebHostEnvironment webHostEnvironment, IHttpContextAccessor httpContextAccessor)
     {
-        _postRepository = postRepository;
-        _userRepository = userRepository;
         _unitOfWork = unitOfWork;
+        _userRepository = userRepository;
+        _postRepository = postRepository;
+        _webHostEnvironment = webHostEnvironment;
+        _httpContextAccessor = httpContextAccessor;
     }
 
     public async Task<IEnumerable<Post>> ListAsync()
@@ -30,13 +34,29 @@ public class PostService: IPostService
         return await _postRepository.ListByUserId(id);
     }
 
-    public async Task<PostResponse> CreateAsync(Post post)
+    public async Task<PostResponse> CreateAsync(Post post, byte[] file, string contentType,string extension, string container)
     {
         var User = await _userRepository.FindByIdAsync(post.UserId);
         if (User == null)
             return new PostResponse("User is not exist");
+        
         try
         {
+            string wwwrootPath = _webHostEnvironment.WebRootPath;
+            if (string.IsNullOrEmpty(wwwrootPath))
+                throw new Exception();
+            string carpetaArchivo = Path.Combine(wwwrootPath, container);
+            if (!Directory.Exists(carpetaArchivo))
+                Directory.CreateDirectory(carpetaArchivo);
+            string nombreFinal = $"{post.Id.ToString()}{extension}";
+            string rutaFinal = Path.Combine(carpetaArchivo, nombreFinal);
+            File.WriteAllBytesAsync(rutaFinal, file);
+            string urlActual =
+                $"{_httpContextAccessor.HttpContext.Request.Scheme}://{_httpContextAccessor.HttpContext.Request.Host}";
+            string dbUrl = Path.Combine(urlActual, container, nombreFinal).Replace("\\", "/");
+
+            post.Foto = dbUrl;
+            
             await _postRepository.AddAsync(post);
             await _unitOfWork.CompleteAsync();
             return new PostResponse(post);
@@ -51,7 +71,7 @@ public class PostService: IPostService
     {
         var post_exist = await _postRepository.FindByIdAsync(id);
         if (post_exist == null)
-            return new PostResponse("the Project is not existing");
+            return new PostResponse("the Post is not existing");
         try
         {
             _postRepository.DeleteAsync(post_exist);
@@ -60,7 +80,7 @@ public class PostService: IPostService
         }
         catch (Exception e)
         {
-            return new PostResponse($"An error occurred while deleting the Project: {e.Message}");
+            return new PostResponse($"An error occurred while deleting the Post: {e.Message}");
         }
     }
 
