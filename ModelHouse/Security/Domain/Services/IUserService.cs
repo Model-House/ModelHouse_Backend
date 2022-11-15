@@ -9,6 +9,6 @@ public interface IUserService
     Task<IEnumerable<User>> ListAsync();
     Task<User> GetByIdAsync(int id);
     Task RegisterAsync(RegisterRequest request);
-    Task UpdateAsync(int id, UpdateRequest request);
+    Task<User> UpdateAsync(int id, UpdateRequest request, byte[] file, string contentType,string extension, string container);
     Task DeleteAsync(int id);
 }

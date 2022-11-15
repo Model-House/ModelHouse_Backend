@@ -16,14 +16,18 @@ public class UserService : IUserService
 
     private readonly IJwtHandler _jwtHandler;
     private readonly IMapper _mapper;
+    private readonly IWebHostEnvironment _webHostEnvironment;
+    private readonly IHttpContextAccessor _httpContextAccessor;
 
 
-    public UserService(IUserRepository userRepository, IUnitOfWork unitOfWork, IJwtHandler jwtHandler, IMapper mapper)
+    public UserService(IUserRepository userRepository, IUnitOfWork unitOfWork, IJwtHandler jwtHandler, IMapper mapper, IWebHostEnvironment webHostEnvironment, IHttpContextAccessor httpContextAccessor)
     {
         _userRepository = userRepository;
         _unitOfWork = unitOfWork;
         _jwtHandler = jwtHandler;
         _mapper = mapper;
+        _webHostEnvironment = webHostEnvironment;
+        _httpContextAccessor = httpContextAccessor;
     }
 
     public async Task<AuthenticateResponse> Authenticate(AuthenticateRequest request)
@@ -84,31 +88,40 @@ public class UserService : IUserService
         }
     }
 
-    public async Task UpdateAsync(int id, UpdateRequest request)
+    public async Task<User> UpdateAsync(int id, UpdateRequest request, byte[] file, string contentType,string extension, string container)
     {
         var user = GetById(id);
-        var userWithUsername = await _userRepository.FindByEmailAsync(request.Email);
-
-        // Validate if user is changing username and it is already taken
-        if (userWithUsername != null && user.Id != userWithUsername.Id)
-            throw new AppException($"Username '{request.Username}' is already taken");
-        
-        // Hash password if it was entered
-        if (!string.IsNullOrEmpty(request.Password))
-            user.PasswordHash = BCryptNet.HashPassword(request.Password);
-        
-        // Map Request to User Object
-        _mapper.Map(request, user);
+        if(user == null)
+            return null;
+        user.Phone = request.Phone;
+        user.Username = request.Username;
         try
         {
+            string wwwrootPath = _webHostEnvironment.WebRootPath;
+            if (string.IsNullOrEmpty(wwwrootPath))
+                throw new Exception();
+            string carpetaArchivo = Path.Combine(wwwrootPath, container);
+            if (!Directory.Exists(carpetaArchivo))
+                Directory.CreateDirectory(carpetaArchivo);
+            string nombreFinal = $"{0.ToString()}{extension}";
+            //System.Console.WriteLine(file);
+            string rutaFinal = Path.Combine(carpetaArchivo, nombreFinal);
+            System.Console.WriteLine(rutaFinal);
+            File.WriteAllBytesAsync(rutaFinal, file);
+            string urlActual =
+                $"{_httpContextAccessor.HttpContext.Request.Scheme}://{_httpContextAccessor.HttpContext.Request.Host}";
+            string dbUrl = Path.Combine(urlActual, container, nombreFinal).Replace("\\", "/");
+
+            user.Image = dbUrl;
+            
             _userRepository.Update(user);
             await _unitOfWork.CompleteAsync();
+            return user;
         }
         catch (Exception e)
         {
             throw new AppException($"An error occurred while updating the user: {e.Message}");
         }
-        
     }
     
     public async Task DeleteAsync(int id)

@@ -12,6 +12,7 @@ public class User
     public string Image { get; set; }
     public string Phone { get; set; }
 
+
     [JsonIgnore]
     public string PasswordHash { get; set; }
     public IList<Order> Orders { get; set; } = new List<Order>();

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gM579t8s8KhIOj0AVBBYZYI4RkEknQMZ6Q4BZEHUoB8=",
+  "Hash": "syWLtXB+leS5q5S0BGyWe7JSTnBF88IfuWV6m2vGd28=",
   "Source": "ModelHouse",
   "BasePath": "_content/ModelHouse",
   "Mode": "Default",
@@ -10,28 +10,10 @@
     {
       "Name": "ModelHouse\\wwwroot",
       "Source": "ModelHouse",
-      "ContentRoot": "C:\\Users\\SETTING\\Documents\\Ciclo 6 UPC\\Moviles\\TB4\\ModelHouse_Backend-master\\ModelHouse\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SETTING\\Documents\\Ciclo 6 UPC\\Moviles\\TF\\ModelHouse_Backend\\ModelHouse\\wwwroot\\",
       "BasePath": "_content/ModelHouse",
       "Pattern": "**"
     }
   ],
-  "Assets": [
-    {
-      "Identity": "C:\\Users\\SETTING\\Documents\\Ciclo 6 UPC\\Moviles\\TB4\\ModelHouse_Backend-master\\ModelHouse\\wwwroot\\ImagePost\\0.png",
-      "SourceId": "ModelHouse",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SETTING\\Documents\\Ciclo 6 UPC\\Moviles\\TB4\\ModelHouse_Backend-master\\ModelHouse\\wwwroot\\",
-      "BasePath": "_content/ModelHouse",
-      "RelativePath": "ImagePost/0.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ImagePost\\0.png"
-    }
-  ]
+  "Assets": []
 }

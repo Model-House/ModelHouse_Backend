@@ -10,5 +10,6 @@ public class ModelToResourceProfile : AutoMapper.Profile
     {
         CreateMap<User, AuthenticateResponse>();
         CreateMap<User, UserResource>();
+        CreateMap<User, UpdateRequest>();
     }
 }

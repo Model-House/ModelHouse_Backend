@@ -26,4 +26,9 @@
       <Folder Include="wwwroot" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\ImagePost\0.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\ImagePost\a10f5fff-0cf8-4618-8bae-4b54a2c8119d.png" />
+    </ItemGroup>
+
 </Project>

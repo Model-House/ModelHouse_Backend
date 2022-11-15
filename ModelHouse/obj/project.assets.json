@@ -7180,11 +7180,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SETTING\\Documents\\Ciclo 6 UPC\\Moviles\\TB4\\ModelHouse_Backend-master\\ModelHouse\\ModelHouse.csproj",
+      "projectUniqueName": "C:\\Users\\SETTING\\Documents\\Ciclo 6 UPC\\Moviles\\TF\\ModelHouse_Backend\\ModelHouse\\ModelHouse.csproj",
       "projectName": "ModelHouse",
-      "projectPath": "C:\\Users\\SETTING\\Documents\\Ciclo 6 UPC\\Moviles\\TB4\\ModelHouse_Backend-master\\ModelHouse\\ModelHouse.csproj",
+      "projectPath": "C:\\Users\\SETTING\\Documents\\Ciclo 6 UPC\\Moviles\\TF\\ModelHouse_Backend\\ModelHouse\\ModelHouse.csproj",
       "packagesPath": "C:\\Users\\SETTING\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SETTING\\Documents\\Ciclo 6 UPC\\Moviles\\TB4\\ModelHouse_Backend-master\\ModelHouse\\obj\\",
+      "outputPath": "C:\\Users\\SETTING\\Documents\\Ciclo 6 UPC\\Moviles\\TF\\ModelHouse_Backend\\ModelHouse\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SETTING\\AppData\\Roaming\\NuGet\\NuGet.Config",

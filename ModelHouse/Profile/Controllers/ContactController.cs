@@ -65,19 +65,25 @@ public class ContactController: ControllerBase
         return Ok(postResource);
     }
 
-    [HttpPost("GuardarImagen")]
-    public async Task<string> GuardarImagen([FromForm] SubirImagenAPI fichero)
-    {
-        var ruta = string.Empty;
-        if (fichero.Archivo.Length > 0)
-        {
-            var nombreArchivo = Guid.NewGuid().ToString() + ".jpg";
-            ruta = $"Imagenes/{nombreArchivo}";
-            using (var stream = new FileStream(ruta, FileMode.Create))
-            {
-                await fichero.Archivo.CopyToAsync(stream);
-            }
-        }
-        return ruta;
-    }
+
+    //[HttpGet("/api/v1/users")]
+    //public async Task<string> Guardar()
+    //{
+    //    return "hola";
+    //}
+    //[HttpPost("GuardarImagen")]
+    //public async Task<string> GuardarImagen([FromForm] SubirImagenAPI fichero)
+    //{
+    //    var ruta = string.Empty;
+    //    if (fichero.Archivo.Length > 0)
+    //    {
+    //        var nombreArchivo = Guid.NewGuid().ToString() + ".jpg";
+    //        ruta = $"Imagenes/{nombreArchivo}";
+    //        using (var stream = new FileStream(ruta, FileMode.Create))
+    //        {
+    //            await fichero.Archivo.CopyToAsync(stream);
+    //        }
+    //    }
+    //    return ruta;
+    //}
 }

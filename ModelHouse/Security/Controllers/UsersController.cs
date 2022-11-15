@@ -8,7 +8,6 @@ using ModelHouse.Security.Resources;
 
 namespace ModelHouse.Security.Controllers;
 
-[Authorize]
 [ApiController]
 [Route("/api/v1/[controller]")]
 public class UsersController : ControllerBase
@@ -56,16 +55,21 @@ public class UsersController : ControllerBase
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> Update(int id, UpdateRequest request)
+    public async Task<IActionResult> Update(int id, [FromForm] UpdateRequest request)
     {
-        await _userService.UpdateAsync(id, request);
-        return Ok(new { message = "User updated successfully" });
+        using var stream = new MemoryStream();
+        IFormFile foto = request.Image;
+        await foto.CopyToAsync(stream);
+        var fileBytes = stream.ToArray();
+        
+        var response = await _userService.UpdateAsync(id, request, fileBytes, foto.ContentType,Path.GetExtension(foto.FileName), "ImageUser");
+        return Ok(new { message = response });
     }
 
     [HttpDelete("{id}")]
-    public async Task<IActionResult> Delete(int id)
+    public async Task<string> Delete(int id)
     {
-        await _userService.DeleteAsync(id);
-        return Ok(new { message = "User deleted successfully" });
+        //await _userService.DeleteAsync(id);
+        return "que fue causa";
     }
 }

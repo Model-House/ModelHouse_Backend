@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3EuFt84kH1uSIznZuawXwbNnVHwuP6gLiwj8fL8T+FLBwTU3wXd0R+QBD666JCfzWZaGrZzMzm9949iwKiCjZA==",
+  "dgSpecHash": "xM2jsCc9M9CW5c6t+AYohxzWELEqcE/2M5lEaZulesOQuJopGO5BP22pA3t2Mtfre0mKXW/HMXk+B//Z/xLW0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SETTING\\Documents\\Ciclo 6 UPC\\Moviles\\TB4\\ModelHouse_Backend-master\\ModelHouse\\ModelHouse.csproj",
+  "projectFilePath": "C:\\Users\\SETTING\\Documents\\Ciclo 6 UPC\\Moviles\\TF\\ModelHouse_Backend\\ModelHouse\\ModelHouse.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SETTING\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\SETTING\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
