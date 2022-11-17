@@ -46,7 +46,6 @@ public class ContactService: IContactService
             if (c.ContactId == contact.ContactId)
                 return new ContactResponse("The Contact is exist");
         }
-        contact.Name = user_contact_exist.Username;
         try
         {
             await _contactRepository.AddAsync(contact);

@@ -100,14 +100,13 @@ public class AppDbContext : DbContext
         builder.Entity<User>()
             .HasMany(p => p.Contacts)
             .WithOne(p => p.User)
-            .HasForeignKey(p => p.UserId);
+            .HasForeignKey(p => p.ContactId);
         
         builder.Entity<Contact>().ToTable("Contacts");
         builder.Entity<Contact>().HasKey(p => p.Id);
         builder.Entity<Contact>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
         builder.Entity<Contact>().Property(p => p.UserId).IsRequired();
         builder.Entity<Contact>().Property(p => p.ContactId).IsRequired();
-        builder.Entity<Contact>().Property(p => p.Name).IsRequired();
         
         builder.Entity<Contact>()
             .HasMany(p => p.Messages)
