@@ -38,7 +38,7 @@ public class ContactService: IContactService
         var user_contact_exist = await _userRepository.FindByIdAsync(contact.ContactId);
         if (user_contact_exist == null)
             return new ContactResponse("The User Contact is not exist");
-        if (contact.Id == contact.ContactId)
+        if (contact.UserId == contact.ContactId)
             return new ContactResponse("The action is not correct");
         var contact_exist = await _contactRepository.ListByUserId(contact.UserId);
         foreach (var c in contact_exist)
