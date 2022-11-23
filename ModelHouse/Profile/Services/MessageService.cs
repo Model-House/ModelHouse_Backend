@@ -2,6 +2,7 @@ using ModelHouse.Profile.Domain.Models;
 using ModelHouse.Profile.Domain.Repositories;
 using ModelHouse.Profile.Domain.Services;
 using ModelHouse.Profile.Domain.Services.Communication;
+using ModelHouse.Security.Domain.Models;
 using ModelHouse.Shared.Domain.Repositories;
 
 namespace ModelHouse.Profile.Services;
@@ -24,15 +25,18 @@ public class MessageService: IMessageService
         return await _messageRepository.ListAsync();
     }
 
-    public async Task<IEnumerable<Message>> ListByContactId(long id)
+    public async Task<IEnumerable<Message>> ListByContactId(long contactId, long userId)
     {
-        return await _messageRepository.ListByContactId(id);
+        return await _messageRepository.ListByContactId(contactId, userId);
     }
 
     public async Task<MessageResponse> CreateAsync(Message message)
     {
         var contact_exist = await _contactRepository.FindByIdAsync(message.ContactId);
         if (contact_exist == null)
+            return new MessageResponse("The Contact User is not exist");
+        var user_exist = await _contactRepository.FindByIdAsync(message.UserId);
+        if (user_exist == null)
             return new MessageResponse("The User is not exist");
         try
         {

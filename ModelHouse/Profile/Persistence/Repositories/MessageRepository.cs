@@ -19,10 +19,10 @@ public class MessageRepository: BaseRepository, IMessageRepository
             .ToListAsync();
     }
 
-    public async Task<IEnumerable<Message>> ListByContactId(long id)
+    public async Task<IEnumerable<Message>> ListByContactId(long contactId, long userId)
     {
         return await _context.Messages
-            .Where(p => p.ContactId == id)
+            .Where(p => p.ContactId == contactId && p.UserId == userId)
             .Include(p => p.Contact)
             .ToListAsync();
     }

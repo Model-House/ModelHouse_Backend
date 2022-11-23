@@ -28,10 +28,10 @@ public class MessageController: ControllerBase
     }
     
     [HttpGet("" +
-             "contact/{id}")]
-    public async Task<IEnumerable<MessageResource>> GetAllByUserId(long id)
+             "contact/{contactId}/user/{userId}")]
+    public async Task<IEnumerable<MessageResource>> GetAllByUserId(long contactId, long userId)
     {
-        var messages = await _messageService.ListByContactId(id);
+        var messages = await _messageService.ListByContactId(contactId, userId);
         var resources = _mapper.Map<IEnumerable<Message>, IEnumerable<MessageResource>>(messages);
         return resources;
     }

@@ -103,7 +103,7 @@ public class UserService : IUserService
             string carpetaArchivo = Path.Combine(wwwrootPath, container);
             if (!Directory.Exists(carpetaArchivo))
                 Directory.CreateDirectory(carpetaArchivo);
-            string nombreFinal = $"{0.ToString()}{extension}";
+            string nombreFinal = $"{Guid.NewGuid()}{extension}";
             //System.Console.WriteLine(file);
             string rutaFinal = Path.Combine(carpetaArchivo, nombreFinal);
             System.Console.WriteLine(rutaFinal);

@@ -8,5 +8,6 @@ public class MessageResource
     public bool isMe { get; set; }
     
     public ContactResource Contact { get; set; }
+    public long UserId { get; set; }
     public long ContactId { get; set; }
 }

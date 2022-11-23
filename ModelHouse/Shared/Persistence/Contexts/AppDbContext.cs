@@ -119,6 +119,7 @@ public class AppDbContext : DbContext
         builder.Entity<Message>().Property(p => p.Content).IsRequired();
         builder.Entity<Message>().Property(p => p.ShippingTime).IsRequired();
         builder.Entity<Message>().Property(p => p.isMe).IsRequired();
+        builder.Entity<Message>().Property(p => p.UserId).IsRequired();
         builder.Entity<Message>().Property(p => p.ContactId).IsRequired();
         
         // Apply Naming Conventions
