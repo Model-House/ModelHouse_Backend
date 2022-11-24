@@ -48,7 +48,7 @@ public class PostService: IPostService
             string carpetaArchivo = Path.Combine(wwwrootPath, container);
             if (!Directory.Exists(carpetaArchivo))
                 Directory.CreateDirectory(carpetaArchivo);
-            string nombreFinal = $"{0.ToString()}{extension}";
+            string nombreFinal = $"{Guid.NewGuid()}{extension}";
             string rutaFinal = Path.Combine(carpetaArchivo, nombreFinal);
             File.WriteAllBytesAsync(rutaFinal, file);
             string urlActual =
