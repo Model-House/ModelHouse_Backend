@@ -64,6 +64,12 @@ public class UserService : IUserService
         return user;
     }
 
+    public async Task<User> GetByEmailAsync(string email)
+    {
+        return await _userRepository.FindByEmailAsync(email);
+    }
+
+
     public async Task RegisterAsync(RegisterRequest request)
     {
         // Validate if Username is already taken

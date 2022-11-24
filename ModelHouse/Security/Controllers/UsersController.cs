@@ -53,6 +53,14 @@ public class UsersController : ControllerBase
 
         return Ok(resource);
     }
+    [HttpGet("find/{email}")]
+    public async Task<IActionResult> GetByEmail(string email)
+    {
+        var user = await _userService.GetByEmailAsync(email);
+        var resource = _mapper.Map<User, UserResource>(user);
+
+        return Ok(resource);
+    }
 
     [HttpPut("{id}")]
     public async Task<IActionResult> Update(int id, [FromForm] UpdateRequest request)
