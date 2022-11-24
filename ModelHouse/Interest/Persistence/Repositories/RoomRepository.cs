@@ -17,6 +17,13 @@ public class RoomRepository: BaseRepository, IRoomRepository
         return await _context.Rooms.ToListAsync();
     }
 
+    public async Task<IEnumerable<Room>> ListByUserId(long id)
+    {
+        return await _context.Rooms.Where(p => p.UserId == id)
+            .Include(p => p.User)
+            .ToListAsync();
+    }
+
     public async Task AddAsync(Room room)
     { 
         await _context.Rooms.AddAsync(room);

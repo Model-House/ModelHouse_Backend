@@ -28,7 +28,13 @@ public class ServicesController: ControllerBase
 
         return resources;
     }
-
+    [HttpGet("user/{id}")]
+    public async Task<IEnumerable<ServiceResource>> GetAllByUserId(long id)
+    {
+        var services = await _serviceService.ListByUserId(id);
+        var resources = _mapper.Map<IEnumerable<Service>, IEnumerable<ServiceResource>>(services);
+        return resources;
+    }
     [HttpPost]
     public async Task<IActionResult> PostAsync([FromBody] SaveServiceResource resource)
     {

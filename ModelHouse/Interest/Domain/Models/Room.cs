@@ -1,3 +1,5 @@
+using ModelHouse.Security.Domain.Models;
+
 namespace ModelHouse.Interest.Domain.Models;
 
 public class Room
@@ -7,4 +9,6 @@ public class Room
     public string Name { get; set; }
 
     public bool Check { get; set; }
+    public User User { get; set; }
+    public long UserId { get; set; }
 }

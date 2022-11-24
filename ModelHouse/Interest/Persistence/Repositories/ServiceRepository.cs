@@ -17,6 +17,13 @@ public class ServiceRepository: BaseRepository, IServiceRepository
         return await _context.Services.ToListAsync();
     }
 
+    public async Task<IEnumerable<Service>> ListByUserId(long id)
+    {
+        return await _context.Services.Where(p => p.UserId == id)
+            .Include(p => p.User)
+            .ToListAsync();
+    }
+
     public async Task AddAsync(Service service)
     { 
         await _context.Services.AddAsync(service);

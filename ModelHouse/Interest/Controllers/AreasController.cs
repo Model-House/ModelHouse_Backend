@@ -32,8 +32,8 @@ public class AreasController: ControllerBase
     [HttpGet("user/{id}")]
     public async Task<IEnumerable<AreaResource>> GetAllByUserId(long id)
     {
-        var orders = await _areaService.ListByUserId(id);
-        var resources = _mapper.Map<IEnumerable<Area>, IEnumerable<AreaResource>>(orders);
+        var areas = await _areaService.ListByUserId(id);
+        var resources = _mapper.Map<IEnumerable<Area>, IEnumerable<AreaResource>>(areas);
         return resources;
     }
     [HttpPost]
@@ -41,15 +41,12 @@ public class AreasController: ControllerBase
     {
         if (!ModelState.IsValid)
             return BadRequest(ModelState.GetErrorMessages());
-        Console.WriteLine("holita");
         var area = _mapper.Map<SaveAreaResource, Area>(resource);
 
         var result = await _areaService.SaveAsync(area);
-        Console.WriteLine("holita222");
 
         if (!result.Success)
             return BadRequest(result.Message);
-        Console.WriteLine("holita333");
 
         var areaResource = _mapper.Map<Area, AreaResource>(result.Resource);
 

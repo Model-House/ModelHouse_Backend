@@ -32,10 +32,8 @@ public class AreaService: IAreaService
         var existingUser = await _userRepository.FindByIdAsync(area.UserId);
         if (existingUser == null)
             return new AreaResponse("Invalid user");
-        Console.WriteLine("error antes de try");
         try
         {
-            Console.WriteLine("error en el try");
             await _areaRepository.AddAsync(area);
             await _unitOfWork.CompleteAsync();
 

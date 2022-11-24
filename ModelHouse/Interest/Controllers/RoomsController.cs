@@ -1,4 +1,5 @@
 using AutoMapper;
+using LearningCenter.API.Interest.Services;
 using Microsoft.AspNetCore.Mvc;
 using ModelHouse.Interest.Domain.Models;
 using ModelHouse.Interest.Domain.Services;
@@ -29,7 +30,13 @@ public class RoomsController: ControllerBase
 
         return resources;
     }
-
+    [HttpGet("user/{id}")]
+    public async Task<IEnumerable<RoomResource>> GetAllByUserId(long id)
+    {
+        var rooms = await _roomService.ListByUserId(id);
+        var resources = _mapper.Map<IEnumerable<Room>, IEnumerable<RoomResource>>(rooms);
+        return resources;
+    }
     [HttpPost]
     public async Task<IActionResult> PostAsync([FromBody] SaveRoomResource resource)
     {

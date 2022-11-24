@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SETTING\\Documents\\Ciclo 6 UPC\\Moviles\\TF\\ModelHouse_Backend\\ModelHouse\\ModelHouse.csproj": {}
+    "C:\\Users\\Luis\\Downloads\\TFmoviles\\ModelHouse_Backend-master\\ModelHouse\\ModelHouse.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SETTING\\Documents\\Ciclo 6 UPC\\Moviles\\TF\\ModelHouse_Backend\\ModelHouse\\ModelHouse.csproj": {
+    "C:\\Users\\Luis\\Downloads\\TFmoviles\\ModelHouse_Backend-master\\ModelHouse\\ModelHouse.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SETTING\\Documents\\Ciclo 6 UPC\\Moviles\\TF\\ModelHouse_Backend\\ModelHouse\\ModelHouse.csproj",
+        "projectUniqueName": "C:\\Users\\Luis\\Downloads\\TFmoviles\\ModelHouse_Backend-master\\ModelHouse\\ModelHouse.csproj",
         "projectName": "ModelHouse",
-        "projectPath": "C:\\Users\\SETTING\\Documents\\Ciclo 6 UPC\\Moviles\\TF\\ModelHouse_Backend\\ModelHouse\\ModelHouse.csproj",
-        "packagesPath": "C:\\Users\\SETTING\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SETTING\\Documents\\Ciclo 6 UPC\\Moviles\\TF\\ModelHouse_Backend\\ModelHouse\\obj\\",
+        "projectPath": "C:\\Users\\Luis\\Downloads\\TFmoviles\\ModelHouse_Backend-master\\ModelHouse\\ModelHouse.csproj",
+        "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Luis\\Downloads\\TFmoviles\\ModelHouse_Backend-master\\ModelHouse\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SETTING\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

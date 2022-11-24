@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "syWLtXB+leS5q5S0BGyWe7JSTnBF88IfuWV6m2vGd28=",
+  "Hash": "A7uqkkN9Y+7GsKTAJU0AzWgu0GTF/bOYj8Cmo42JohM=",
   "Source": "ModelHouse",
   "BasePath": "_content/ModelHouse",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "ModelHouse\\wwwroot",
       "Source": "ModelHouse",
-      "ContentRoot": "C:\\Users\\SETTING\\Documents\\Ciclo 6 UPC\\Moviles\\TF\\ModelHouse_Backend\\ModelHouse\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luis\\Downloads\\TFmoviles\\ModelHouse_Backend-master\\ModelHouse\\wwwroot\\",
       "BasePath": "_content/ModelHouse",
       "Pattern": "**"
     }

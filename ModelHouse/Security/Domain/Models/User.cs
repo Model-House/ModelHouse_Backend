@@ -1,4 +1,5 @@
 using System.Text.Json.Serialization;
+using LearningCenter.API.Interest.Services;
 using ModelHouse.Interest.Domain.Models;
 using ModelHouse.Profile.Domain.Models;
 
@@ -18,6 +19,8 @@ public class User
     public IList<Order> Orders { get; set; } = new List<Order>();
     public IList<Post> Posts { get; set; } = new List<Post>();
     public IList<Area> Areas { get; set; } = new List<Area>();
+    public IList<Room> Rooms { get; set; } = new List<Room>();
+    public IList<Service> Services { get; set; } = new List<Service>();
     public IList<Notification> Notifications { get; set; } = new List<Notification>();
     public IList<Contact> Contacts { get; set; } = new List<Contact>();
 

@@ -4,4 +4,5 @@ public class SaveServiceResource
 {
     public string Name { get; set; }
     public bool Check { get; set; }
+    public long UserId { get; set; }
 }
